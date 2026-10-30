@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+
+# Data artifacts and models
+data/*.csv
+!data/sample_sales.csv
+models/*.pkl
+models/*.joblib
+reports/figures/*.png
+
+# OS / Editor files
+.vscode/
+.DS_Store
+Thumbs.db
